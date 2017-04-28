@@ -1,0 +1,5 @@
+package ifox_hz_bookstore_web;
+
+public class CriteriaBook {
+
+}

@@ -1,0 +1,8 @@
+package ifox_hz_bookstore_web;
+
+public class CriteriaBook {
+
+	private float minPrice = 1;
+	private float maxPrice = Integer.MAX_VALUE;
+	
+}
