@@ -1,0 +1,16 @@
+import java.sql.Connection;
+
+import javax.sql.DataSource;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class JdbcTools {
+	private static DataSource dataSource = null;
+	static{
+		dataSource = new ComboPooledDataSource("helloc3p0");
+	}
+	
+	public static ComboPooledDataSource getConnection(){
+		return connection;
+	}
+}

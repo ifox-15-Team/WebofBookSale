@@ -1,0 +1,7 @@
+
+public class JdbcTest {
+	@Test
+	public void testjdbc(){
+		
+	}
+}

@@ -1,0 +1,12 @@
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import org.junit.Test;
+
+public class JdbcTest {
+	@Test
+	public void testjdbc() throws SQLException{
+		Connection connection = JdbcTools.getConnection();
+		System.out.println(connection);
+	}
+}

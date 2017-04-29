@@ -17,19 +17,19 @@
 	<form action="">
 	<div class="ipt1">
 		<label>您的姓名:</label><br/>
-		<input type="text" name="" value="" >
+		<input type="text" name="username" value="" >
 	</div>
 	<div class="ipt1">
 		<label>电子邮件地址:</label><br/>
-		<input type="text" name="" value="" >
+		<input type="text" name="email" value="" >
 	</div>
 	<div class="ipt1">
 		<label>验证码:</label><br/>
-		<input type="text" name="" value="" >
+		<input type="text" name="checkid" value="" >
 	</div>
 	<div class="ipt1">
 		<label>登录密码:</label><br/>
-		<input type="text" name="" value="" placeholder="至少6个字符">
+		<input type="password" name="password" value="" placeholder="至少6个字符">
 	</div>
 	<div class="ipt2">
 		<input type="checkbox" >我已阅读并同意网站的使用条件及隐私声明。<br/><br/><br/>
