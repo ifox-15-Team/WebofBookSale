@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+#head{
+	width: 360px;
+	margin: 0 auto;
+}
+#main{
+	width: 360px;
+	height: 550px;
+	border: 1px solid;
+	margin: 0 auto;
+	
+}
+.item{
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+.ipt{
+	width: 320px;
+	height: 25px;
+	border-radius: 5px;
+}
+#text-id{
+	font-family: "微软雅黑";
+	font-size: 35px;
+	color: black;
+}
+#text-id2{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #000000;
+	font-weight: bold;
+}
+#text-id3{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: cornflowerblue;
+	font-weight: bold;
+	float: right;
+	margin-right: 20px;
+}
+#btn_log{
+	width: 320px;
+	height: 30px;
+	
+}
+#text-id4{
+	font-family: "微软雅黑";
+	color: #CCCCCC;
+}
+#btn_wechat{
+	width: 320px;
+	height: 28px;
+	background-color: chartreuse;
+	border-radius: 5px;
+	text-align: center;
+}
+#log-id{
+	font-family: "微软雅黑";
+	color: white;
+	margin-left: 10px;
+}
+#bottom-text{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.ipt:focus{
+	border: 2px solid goldenrod;	
+}
